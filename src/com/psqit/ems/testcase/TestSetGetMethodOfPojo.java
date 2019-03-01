@@ -10,11 +10,10 @@ class TestSetGetMethodOfPojo {
 
 	@Test
 	void test1() {
-		Emspojo ep=new Emspojo();
+		Emspojo ep = new Emspojo();
 		ep.setEmp_id(5);
-		
-		assertEquals(5,ep.getEmp_id());
+
+		assertEquals(5, ep.getEmp_id());
 	}
-	
-	
+
 }
